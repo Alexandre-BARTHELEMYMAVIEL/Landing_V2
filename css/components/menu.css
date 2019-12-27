@@ -1,0 +1,56 @@
+#menu ul {
+ margin: auto;
+ padding: 0;
+ line-height: 30px;
+ background-color: white;
+ margin-left: 130px;
+}
+
+#menu li {
+ list-style: none;
+ float: left;
+ position: relative;
+ background-color: rgba(62, 100, 255, 0.85);
+ font-weight: bold;
+}
+
+#menu ul li a {
+ color: White;
+ text-decoration: none;
+ width: 190px;
+ height: 90px;
+ display: inline-block;
+ text-align: center;
+ border-radius: 1px solid black;
+ font-family: Arial;
+ letter-spacing: 2px;
+ border-top: 4px solid black;
+ border-bottom: 4px solid black;
+ border-left: 4px solid black;
+ border-right: 4px solid black;
+}
+
+#menu ul ul {
+ position: absolute;
+ visibility: hidden;
+ margin: 0px;
+}
+
+#menu ul li ul{
+ position: absolute;
+}
+
+#menu ul li:hover ul {
+ visibility: visible;
+}
+
+#menu li:hover {
+ background-color: #7FFFD4;
+ color: black;
+}
+
+#menu ul li ul a:hover {
+ color: black;
+ background-color: #7FFFD4;
+}
+
